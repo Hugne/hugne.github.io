@@ -3,7 +3,7 @@ layout: post
 title: "TIPC and traffic control"
 description: ""
 category: 
-tags: []
+tags: [tipc, tc, qdisc, filter]
 ---
 {% include JB/setup %}
 

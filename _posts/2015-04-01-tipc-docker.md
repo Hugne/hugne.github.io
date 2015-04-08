@@ -3,7 +3,7 @@ layout: post
 title: "TIPC and docker"
 description: ""
 category: 
-tags: [docker tipc]
+tags: [docker, tipc]
 ---
 {% include JB/setup %}
 

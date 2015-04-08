@@ -3,7 +3,7 @@ layout: post
 title: "TIPC in Python"
 description: ""
 category: 
-tags: [python tipc]
+tags: [python, tipc]
 ---
 {% include JB/setup %}
 

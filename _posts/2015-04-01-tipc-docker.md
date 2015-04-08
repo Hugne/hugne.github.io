@@ -23,7 +23,8 @@ linux-q8su:~ # docker run -id --cap-add all -v /root/docker_mnt/:/mnt opensuse /
 61eeeeb0094228470e735f9ec9fdac9d7bac7d90b0ae0ade029b9edc745aa14f
 </PRE>
 We need the TIPC userspace tools to configure TIPC, the docker containers usually don`t include this so i have placed it in /root/docker_mnt on the docker host and bind mount that directory in the containers.
-
+A better approach is to boot up the container base image, install the tipcutils package and commit the
+change to a new image.
 
 Set a TIPC address and enable eth0 as bearer:  
 <PRE>
